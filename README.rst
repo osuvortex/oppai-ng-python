@@ -44,6 +44,8 @@ ezpp_data_dup when you're actually changing map
 how to build
 ============
 .. code-block:: sh
+
 	swig -python -includeall oppai.i
 	python3 setup.py build_ext --inplace
+	
 that's it.
